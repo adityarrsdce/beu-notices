@@ -2,7 +2,7 @@ name: Scrape BEU Notices
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Every 12 hours
+    - cron: '*/1 * * * *'   # 🔁 Run every 1 minute
   workflow_dispatch:        # Allows manual trigger from GitHub Actions tab
 
 jobs:
