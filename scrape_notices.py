@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-import re
-from datetime import datetime
 
 def scrape_beu_notices():
     url = "https://beu-bih.ac.in/notification"
